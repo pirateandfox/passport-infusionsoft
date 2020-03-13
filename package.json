@@ -1,21 +1,24 @@
 {
-  "name": "passport-infusionsoft",
+  "name": "@pirateandfox/passport-infusionsoft",
   "version": "0.0.3",
   "description": "Infusionsoft API OAuth2 authentication strategy for Passport",
   "main": "./lib/passport-infusionsoft",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": ">= 0.1.0"
+    "passport-oauth": ">=1.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewgbliss/passport-infusionsoft.git"
+    "url": "https://github.com/pirateandfox/passport-infusionsoft.git"
   },
   "bugs": {
-    "url": "https://github.com/andrewgbliss/passport-infusionsoft/issues"
+    "url": "https://github.com/pirateandfox/passport-infusionsoft/issues"
   },
   "engines": {
-    "node": ">= 0.4.0"
+    "node": ">= 10"
   },
   "keywords": [
     "passport",
@@ -27,8 +30,8 @@
     "identity"
   ],
   "author": {
-    "name": "Andrew Bliss",
-    "email": "andrewgbliss@gmail.com"
+    "name": "Bram Borggreve",
+    "email": "borggreve@gmail.com"
   },
   "license": "MIT",
   "readmeFilename": "README.md"

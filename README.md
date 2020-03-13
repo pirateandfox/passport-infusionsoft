@@ -1,15 +1,17 @@
-passport-asana
+passport-infusionsoft
 ==============
 
 [Passport](https://github.com/jaredhanson/passport) Authentication Strategy for [Infusionsoft's API](https://developer.infusionsoft.com/) using OAuth2
 
+
+
 ## Installation
 
-    $ npm install passport-infusionsoft
+    $ npm install @pirateandfox/passport-infusionsoft
 
 ## Usage
 
-#### Authorization (the much more likely usecase)
+#### Authorization (the much more likely use case)
 
 
 #### Authentication Configuration Strategy
@@ -55,7 +57,7 @@ application:
       });
 
 ## Credits
-  - [Andrew Bliss](https://github.com/andrewgbliss)
+  - Forked from [andrewgbliss/passport-infusionsoft](https://github.com/andrewgbliss/passport-infusionsoft)
 
 ## Thanks
   - [Jared Hanson](https://github.com/jaredhanson)
