@@ -1,6 +1,6 @@
 {
   "name": "@pirateandfox/passport-infusionsoft",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Infusionsoft API OAuth2 authentication strategy for Passport",
   "main": "./lib/passport-infusionsoft",
   "dependencies": {
